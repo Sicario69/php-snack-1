@@ -1,5 +1,5 @@
 <?php
-$num = rand(0,23);
+$orario = rand(0,23);
 ?>
 
 
@@ -13,10 +13,10 @@ $num = rand(0,23);
 </head>
 <body>
 <p> <?php 
-            if ($num < 12){
-                echo "☀️". $num;
-            } else if ($num >= 12) {
-                echo "🌑" . $num;
+            if ($orario< 12){
+                echo "☀️". $orario;
+            } else if ($orario >= 12) {
+                echo "🌑" . $orario;
             } 
         ?>
     </p>
